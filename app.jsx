@@ -12,7 +12,7 @@ const order = require("./routes/order.js");
 const cors = require("cors");
 
 app.use(cors({
-    origin: "http://localhost:5173", // Allow requests from frontend
+    origin: "https://scholarshelf.onrender.com", // Allow requests from frontend
     credentials: true, // Allow cookies if needed
 }));
 
